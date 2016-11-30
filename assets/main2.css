@@ -583,3 +583,27 @@ ul.workbook-icon {
     height: 90px;
     margin:5px;
    }
+
+   .bg
+   {
+
+   	background-color: #f6f6f6;
+position: relative;
+
+margin:0 auto;
+line-height: 3.4em;  }
+
+   .bg img {
+   	position: relative;
+   	
+    max-width: 100%;
+    height: auto;}
+
+   .bg h2
+   {padding-top: 15px;}
+
+#container {
+      margin: auto;
+        vertical-align: middle;
+        
+    }
