@@ -578,10 +578,12 @@ ul.workbook-icon {
 
 
 
-#logos{float:left;
+#logos{
+	float:left;
     width: 140px; 
     height: 90px;
-    margin:5px;
+    margin:0 auto;
+    
    }
 
    .bg
@@ -602,8 +604,13 @@ line-height: 3.4em;  }
    .bg h2
    {padding-top: 15px;}
 
-#container {
-      margin: auto;
-        vertical-align: middle;
-        
-    }
+#images{
+   text-align:center;
+}
+
+.logo {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px; 
+}
