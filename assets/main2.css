@@ -255,7 +255,7 @@ ul.icon-list {
 
 .overview .icon-list li {
 	width: 260px;
-	
+
 }
 
 .icon-list li {
@@ -584,7 +584,8 @@ ul.workbook-icon {
     width: 140px; 
     height: 90px;
     margin:0 auto;
-    
+    text-align: center;
+    padding-left: 100px;
    }
 
    .bg
