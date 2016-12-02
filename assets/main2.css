@@ -199,13 +199,13 @@ a.lozenge {
 
 .web-dev .arrow-box,
 .arrow-box-white {
-	background-image: url(../LAGCC_image/img11.jpg);
+	background-color: url(../LAGCC_image/img12.jpg);
 	background-position: top
 }
 
 .web-dev-rails .arrow-box,
 .arrow-box-white {
-	background-image: url(../LAGCC_image/img11.jpg);
+	background-image: url(../LAGCC_image/img12.jpg);
 	background-position: top
 }
 
@@ -401,7 +401,7 @@ ul.workbook-icon {
 }
 
 .swirl {
-	background: url(../LAGCC_image/middle1.jpg) no-repeat center;
+	background: url(../LAGCC_image/img12.jpg) no-repeat center;
 	background-size: cover
 }
 
@@ -446,16 +446,16 @@ ul.workbook-icon {
 }
 
 .cta-details p:nth-child(2) {
-	font-size: 13px;
-	color: #ccc
+	font-size: 14px;
+	color: #000
 }
 
 .cta-details a[href^="mailto:"] {
-	color: #ccc
+	color: #000
 }
 
 .cta-details a:hover {
-	color: #FBC800
+	color: #fff
 }
 
 #Ace-class {
@@ -504,12 +504,12 @@ ul.workbook-icon {
 }
 
 .web-dev #student-photo {
-	background-image: url(../LAGCC_image/image5.jpg);
+	background-image: url(../LAGCC_image/image6.jpg);
 	background-position: bottom
 }
 
 .web-dev-rails #student-photo {
-	background-image: url(../LAGCC_image/image5.jpg);
+	background-image: url(../LAGCC_image/image6.jpg);
 	background-position: bottom
 }
 
@@ -595,7 +595,8 @@ ul.workbook-icon {
 
    	background-color: #f6f6f6;
 position: relative;
-
+padding-bottom: 30px;
+padding-top: 30px;
 margin:0 auto;
 line-height: 3.4em;  }
 
@@ -615,3 +616,75 @@ p1
 	text-align: center;
 
 }
+
+button {
+    background: #000;
+    color: #fff;
+    font-family: Sans-serif;
+    font-size: 20px;
+    height: 60px;
+    width: 150px;
+    line-height: 60px;
+    margin: 25px 25px;
+    text-align: center;
+    border: 0;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background: #fff;
+  color: #000
+}
+
+a.cta-orange {
+   background-color: #fff;
+   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f47a20), color-stop(100%, #faa51a));
+   background-image: -webkit-linear-gradient(top, #fff, #fff);
+   background-image: -moz-linear-gradient(top, #fff, #fff);
+   background-image: -ms-linear-gradient(top, #fff, #fff);
+   background-image: -o-linear-gradient(top, #df47a20, #fff);
+   background-image: linear-gradient(top, #fff, #fff);
+   filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff', endColorstr='#fff');
+   border: 1px solid #fff;
+   -webkit-border-radius: 12px;
+   -moz-border-radius: 12px;
+   border-radius: 12px;
+   color: #000;
+   font: normal 18px/1 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+   padding: 12px 16px 9px;
+   text-align: center;
+   text-shadow: 0 1px 1px #fff;
+   width: 200px;
+   display:block;
+   text-decoration:none; 
+    font-size: 20px;
+    height: 60px;
+    width: 150px;
+    line-height: 60px;
+    margin: 25px 25px;
+    text-align: center;
+    border: 0;
+}
+
+a.cta-orange:hover {
+   background-color: #000;
+   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #000), color-stop(100%, #f06015));
+   background-image: -webkit-linear-gradient(top, #000, #000);
+   background-image: -moz-linear-gradient(top, #000, #000);
+   background-image: -ms-linear-gradient(top, #000, #000);
+   background-image: -o-linear-gradient(top, #000, #000);
+   background-image: linear-gradient(top, #fff, #fff);
+   filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#000', endColorstr='#000');
+   
+   color: #fff;
+   cursor: pointer; }
+
+a.cta-orange:active {
+   color: #fff;
+   background: -webkit-gradient(linear, left top, left bottom, from(#f47a20), to(#faa51a));
+   background: -moz-linear-gradient(top,  #f47a20,  #faa51a);
+   filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f47a20', endColorstr='#faa51a');
+   border: 1px solid #f47a20;
+   -webkit-box-shadow: inset 0 0 4px 2px #f47a20, 0 0 1px 0 #faa51a;
+   box-shadow: inset 0 0 4px 2px #f47a20, 0 0 1px 0 #faa51a; }
+
