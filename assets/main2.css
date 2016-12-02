@@ -1,6 +1,6 @@
 .certificate-page p {
 	font-family: "Arial, Helvetica", sans-serif;
-	font-size: 18px
+	font-size: 15px
 }
 
 h1 {
@@ -10,6 +10,8 @@ h1 {
 	line-height: 1.1em;
 	font-weight: 200
 }
+
+
 
 .second h1 {
 	font-size: 38px;
@@ -284,7 +286,7 @@ p .icon-title {
 }
 
 p.icon-text {
-	font-size: 16px;
+	font-size: 17px;
 	color: #8c8c8c;
 }
 
