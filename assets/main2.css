@@ -287,7 +287,7 @@ p .icon-title {
 
 p.icon-text {
 	font-size: 17px;
-	color: #8c8c8c;
+	color: #000;
 }
 
 p.icon-text::selection {
@@ -587,7 +587,8 @@ ul.workbook-icon {
     height: 90px;
     margin:0 auto;
     text-align: center;
-    padding-left: 110px;
+    padding-left: 100px;
+
    }
 
    .bg
